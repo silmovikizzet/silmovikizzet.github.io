@@ -593,3 +593,13 @@ a {
         justify-content: center;
     }
 }
+
+.experience-projects {
+    margin: 14px 0 0;
+    padding-left: 18px;
+    color: var(--muted);
+}
+
+.experience-projects li + li {
+    margin-top: 6px;
+}
