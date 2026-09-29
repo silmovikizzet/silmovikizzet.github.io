@@ -4,293 +4,314 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name — Network Engineer & Backend Developer</title>
-    <meta name="description" content="Portfolio of a Network Engineer, System Administrator, and Backend Developer focused on infrastructure, automation, monitoring, and Laravel development.">
-    <meta name="theme-color" content="#07111f">
-    <meta property="og:title" content="Your Name — Portfolio">
-    <meta property="og:description" content="Network Engineering, Infrastructure, Automation, Monitoring, and Backend Development.">
-    <meta property="og:type" content="website">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="Portfolio of a Network Engineer, System Administrator, and Backend Developer.">
+    <meta name="theme-color" content="#111214">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <div class="page-grid"></div>
-
     <header class="site-header">
-        <div class="container nav-wrap">
-            <a href="#home" class="brand" aria-label="Homepage">
-                <span class="brand-mark">YN</span>
-                <span class="brand-text">YOUR NAME</span>
+        <div class="container header-inner">
+            <a href="#top" class="identity">
+                <strong>Your Name</strong>
+                <span>Network & Systems</span>
             </a>
 
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-                <span></span><span></span>
+            <button id="navToggle" class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+                Menu
             </button>
 
-            <nav class="site-nav" id="siteNav">
+            <nav id="siteNav" class="site-nav">
                 <a href="#about">About</a>
-                <a href="#expertise">Expertise</a>
-                <a href="#projects">Projects</a>
+                <a href="#work">Work</a>
                 <a href="#experience">Experience</a>
                 <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section class="hero section" id="home">
-            <div class="container hero-grid">
-                <div class="hero-copy reveal">
-                    <div class="eyebrow"><span class="status-dot"></span>Available for professional opportunities</div>
-                    <h1>I build reliable <span>network infrastructure</span>, automation, and backend systems.</h1>
-                    <p class="hero-lead">
-                        Network Engineer, System Administrator, and Backend Developer focused on infrastructure reliability,
-                        network automation, monitoring, Linux systems, and Laravel applications.
+    <main id="top">
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-main">
+                    <p class="intro-label">Network Engineer · System Administrator · Backend Developer</p>
+
+                    <h1>
+                        I work on networks, infrastructure,
+                        and the software around them.
+                    </h1>
+
+                    <p class="hero-summary">
+                        My work sits between network operations and software development:
+                        routing, switching, Linux systems, monitoring, automation,
+                        internal tools, and Laravel applications.
                     </p>
 
                     <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">View Projects</a>
-                        <a href="files/cv.pdf" class="btn btn-secondary" target="_blank" rel="noopener">Download CV</a>
-                    </div>
-
-                    <div class="hero-links">
-                        <a href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub ↗</a>
-                        <a href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn ↗</a>
-                        <a href="mailto:you@example.com">Email ↗</a>
+                        <a href="#work" class="button button-primary">Selected work</a>
+                        <a href="/files/cv.pdf" class="button" target="_blank" rel="noopener">Download CV</a>
                     </div>
                 </div>
 
-                <div class="hero-panel reveal">
-                    <div class="terminal">
-                        <div class="terminal-top">
-                            <div class="terminal-dots"><span></span><span></span><span></span></div>
-                            <div class="terminal-title">profile.sh</div>
+                <aside class="hero-side">
+                    <dl class="quick-facts">
+                        <div>
+                            <dt>Based in</dt>
+                            <dd>Indonesia</dd>
                         </div>
-                        <div class="terminal-body">
-                            <div><span class="prompt">$</span> whoami</div>
-                            <div class="output">network-engineer</div>
-                            <div><span class="prompt">$</span> cat expertise.txt</div>
-                            <div class="output">Networking · Linux · Automation</div>
-                            <div class="output">Laravel · Monitoring · Security</div>
-                            <div><span class="prompt">$</span> uptime</div>
-                            <div class="output">Always learning. Always improving.</div>
-                            <div><span class="prompt">$</span> status</div>
-                            <div class="output success">● Systems operational</div>
+                        <div>
+                            <dt>Focus</dt>
+                            <dd>Networking, systems, automation</dd>
                         </div>
-                    </div>
+                        <div>
+                            <dt>Development</dt>
+                            <dd>Laravel, Livewire, API integrations</dd>
+                        </div>
+                        <div>
+                            <dt>Contact</dt>
+                            <dd><a href="mailto:you@example.com">you@example.com</a></dd>
+                        </div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
 
-                    <div class="mini-stats">
-                        <div><strong>Network</strong><span>Infrastructure</span></div>
-                        <div><strong>System</strong><span>Administration</span></div>
-                        <div><strong>Backend</strong><span>Development</span></div>
-                    </div>
+        <section class="section" id="about">
+            <div class="container two-column">
+                <div class="section-heading">
+                    <span class="section-number">01</span>
+                    <h2>About</h2>
+                </div>
+
+                <div class="body-copy">
+                    <p>
+                        I work across networking, infrastructure, and backend systems.
+                        Most of my work involves keeping systems reliable, simplifying
+                        operational tasks, and turning repetitive processes into tools
+                        that are easier to manage.
+                    </p>
+
+                    <p>
+                        My day-to-day work can range from troubleshooting routing or VPN
+                        issues to building dashboards, API integrations, monitoring,
+                        and provisioning workflows.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section class="section section-muted" id="about">
-            <div class="container split-grid">
-                <div>
-                    <div class="section-kicker">01 / About</div>
-                    <h2 class="section-title">Engineering systems that are practical, maintainable, and reliable.</h2>
+        <section class="section section-bordered" id="work">
+            <div class="container">
+                <div class="section-heading section-heading-row">
+                    <div>
+                        <span class="section-number">02</span>
+                        <h2>Selected work</h2>
+                    </div>
+                    <p>A few projects that represent the kind of work I usually do.</p>
                 </div>
-                <div class="section-copy">
-                    <p>This area will contain your professional summary. Keep it concise: explain what you work on, the environments you are comfortable with, and the kind of problems you solve.</p>
-                    <p>Later, this section can be loaded dynamically from your CMS without changing the front-end layout.</p>
+
+                <div class="work-list">
+                    <article class="work-item">
+                        <div class="work-index">01</div>
+                        <div class="work-content">
+                            <h3>Network Toolbox</h3>
+                            <p>
+                                A browser-based set of network utilities for diagnostics,
+                                DNS checks, IP calculations, SSL inspection, and configuration generation.
+                            </p>
+                            <ul class="stack-list">
+                                <li>Laravel</li>
+                                <li>Livewire</li>
+                                <li>Linux</li>
+                                <li>Networking</li>
+                            </ul>
+                        </div>
+                        <div class="work-links">
+                            <a href="#">Live demo</a>
+                            <a href="#">Case study</a>
+                        </div>
+                    </article>
+
+                    <article class="work-item">
+                        <div class="work-index">02</div>
+                        <div class="work-content">
+                            <h3>Network Provisioning Platform</h3>
+                            <p>
+                                Automation for network service provisioning, lifecycle management,
+                                configuration, customer access, and operational workflows.
+                            </p>
+                            <ul class="stack-list">
+                                <li>Laravel</li>
+                                <li>REST API</li>
+                                <li>Automation</li>
+                                <li>RouterOS</li>
+                            </ul>
+                        </div>
+                        <div class="work-links">
+                            <a href="#">Case study</a>
+                        </div>
+                    </article>
+
+                    <article class="work-item">
+                        <div class="work-index">03</div>
+                        <div class="work-content">
+                            <h3>Monitoring & Security Operations</h3>
+                            <p>
+                                Monitoring and security visibility for servers, network devices,
+                                availability, event correlation, and operational reporting.
+                            </p>
+                            <ul class="stack-list">
+                                <li>Zabbix</li>
+                                <li>Wazuh</li>
+                                <li>SNMP</li>
+                                <li>Linux</li>
+                            </ul>
+                        </div>
+                        <div class="work-links">
+                            <a href="#">Case study</a>
+                        </div>
+                    </article>
+
+                    <article class="work-item">
+                        <div class="work-index">04</div>
+                        <div class="work-content">
+                            <h3>Backend & API Integrations</h3>
+                            <p>
+                                Internal applications for external API integration, webhook handling,
+                                billing flows, service lifecycle, and administrative operations.
+                            </p>
+                            <ul class="stack-list">
+                                <li>Laravel</li>
+                                <li>MySQL</li>
+                                <li>Webhooks</li>
+                                <li>API</li>
+                            </ul>
+                        </div>
+                        <div class="work-links">
+                            <a href="#">Case study</a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
 
         <section class="section" id="expertise">
-            <div class="container">
+            <div class="container two-column">
                 <div class="section-heading">
-                    <div>
-                        <div class="section-kicker">02 / Core Expertise</div>
-                        <h2 class="section-title">Technical areas I work with.</h2>
-                    </div>
-                    <p>Replace these placeholders with your actual technologies and focus areas.</p>
+                    <span class="section-number">03</span>
+                    <h2>Technical areas</h2>
                 </div>
 
-                <div class="expertise-grid">
-                    <article class="expertise-card reveal">
-                        <span class="card-number">01</span>
-                        <h3>Network Infrastructure</h3>
-                        <p>Routing, switching, VLAN, VPN, NAT, firewall, high availability, and troubleshooting.</p>
-                        <div class="tags"><span>MikroTik</span><span>Cisco</span><span>Aruba</span><span>Huawei</span></div>
-                    </article>
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <h3>Networking</h3>
+                        <p>Routing, switching, VLAN, NAT, VPN, firewall, troubleshooting, MikroTik, Cisco, Aruba, Huawei.</p>
+                    </div>
 
-                    <article class="expertise-card reveal">
-                        <span class="card-number">02</span>
-                        <h3>Systems & Linux</h3>
-                        <p>Linux server administration, services, reverse proxy, containers, and production operations.</p>
-                        <div class="tags"><span>Linux</span><span>Docker</span><span>Nginx</span><span>Windows Server</span></div>
-                    </article>
+                    <div class="skill-group">
+                        <h3>Systems</h3>
+                        <p>Linux, Windows Server, Docker, Nginx, reverse proxy, TLS, service operations.</p>
+                    </div>
 
-                    <article class="expertise-card reveal">
-                        <span class="card-number">03</span>
-                        <h3>Backend Development</h3>
-                        <p>Internal tools, dashboards, API integrations, automation platforms, and billing workflows.</p>
-                        <div class="tags"><span>Laravel</span><span>Livewire</span><span>PHP</span><span>MySQL</span></div>
-                    </article>
+                    <div class="skill-group">
+                        <h3>Development</h3>
+                        <p>Laravel, Livewire, PHP, MySQL, REST API, webhooks, internal dashboards.</p>
+                    </div>
 
-                    <article class="expertise-card reveal">
-                        <span class="card-number">04</span>
-                        <h3>Monitoring & Security</h3>
-                        <p>Infrastructure monitoring, alerting, log analysis, endpoint visibility, and operational security.</p>
-                        <div class="tags"><span>Zabbix</span><span>Wazuh</span><span>SNMP</span><span>TLS</span></div>
-                    </article>
+                    <div class="skill-group">
+                        <h3>Monitoring</h3>
+                        <p>Zabbix, Wazuh, SNMP, logs, alerting, availability reporting, incident investigation.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section-muted" id="projects">
+        <section class="section section-bordered" id="experience">
             <div class="container">
-                <div class="section-heading">
+                <div class="section-heading section-heading-row">
                     <div>
-                        <div class="section-kicker">03 / Selected Projects</div>
-                        <h2 class="section-title">Work that demonstrates practical engineering.</h2>
-                    </div>
-                    <p>For each project, focus on problem, solution, architecture, and result.</p>
-                </div>
-
-                <div class="projects-grid">
-                    <article class="project-card project-featured reveal">
-                        <div class="project-top"><span class="project-label">Featured Project</span><span class="project-index">01</span></div>
-                        <div class="project-content">
-                            <h3>Network Toolbox</h3>
-                            <p>Web-based networking toolkit for diagnostics, subnet calculations, DNS checks, SSL inspection, and configuration generation.</p>
-                        </div>
-                        <div class="project-meta">
-                            <div class="tags"><span>Laravel</span><span>Livewire</span><span>Networking</span></div>
-                            <div class="project-actions"><a href="#">Live Demo ↗</a><a href="#">Case Study ↗</a></div>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal">
-                        <div class="project-top"><span class="project-label">Infrastructure Automation</span><span class="project-index">02</span></div>
-                        <div class="project-content">
-                            <h3>Network Provisioning Platform</h3>
-                            <p>Placeholder for a provisioning system that automates network services, customer lifecycle, configuration, and operational workflows.</p>
-                        </div>
-                        <div class="project-meta">
-                            <div class="tags"><span>Laravel</span><span>API</span><span>Automation</span></div>
-                            <a href="#">Case Study ↗</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal">
-                        <div class="project-top"><span class="project-label">Observability</span><span class="project-index">03</span></div>
-                        <div class="project-content">
-                            <h3>Monitoring & Security Stack</h3>
-                            <p>Placeholder for monitoring, alerting, security visibility, availability reporting, and incident diagnostics.</p>
-                        </div>
-                        <div class="project-meta">
-                            <div class="tags"><span>Zabbix</span><span>Wazuh</span><span>Linux</span></div>
-                            <a href="#">Case Study ↗</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal">
-                        <div class="project-top"><span class="project-label">Backend System</span><span class="project-index">04</span></div>
-                        <div class="project-content">
-                            <h3>API Integration Platform</h3>
-                            <p>Placeholder for API automation, webhook processing, lifecycle management, and administrative workflows.</p>
-                        </div>
-                        <div class="project-meta">
-                            <div class="tags"><span>REST API</span><span>Webhook</span><span>MySQL</span></div>
-                            <a href="#">Case Study ↗</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="section" id="experience">
-            <div class="container">
-                <div class="section-heading">
-                    <div>
-                        <div class="section-kicker">04 / Experience</div>
-                        <h2 class="section-title">Professional experience.</h2>
+                        <span class="section-number">04</span>
+                        <h2>Experience</h2>
                     </div>
                 </div>
 
-                <div class="timeline">
-                    <article class="timeline-item reveal">
-                        <div class="timeline-date">20XX — Present</div>
-                        <div class="timeline-content">
+                <div class="experience-list">
+                    <article class="experience-item">
+                        <div class="experience-period">20XX — Present</div>
+                        <div>
                             <h3>Your Current Role</h3>
-                            <div class="timeline-company">Company Name</div>
-                            <p>Add 2–3 sentences describing your scope, responsibilities, infrastructure size, major systems, and measurable improvements.</p>
+                            <p class="company">Company Name</p>
+                            <p>
+                                Add a concise summary of your responsibilities, the environment you support,
+                                and the systems you are responsible for.
+                            </p>
                         </div>
                     </article>
 
-                    <article class="timeline-item reveal">
-                        <div class="timeline-date">20XX — 20XX</div>
-                        <div class="timeline-content">
+                    <article class="experience-item">
+                        <div class="experience-period">20XX — 20XX</div>
+                        <div>
                             <h3>Previous Role</h3>
-                            <div class="timeline-company">Previous Company</div>
-                            <p>Describe relevant operational responsibilities and the systems you maintained or improved.</p>
+                            <p class="company">Previous Company</p>
+                            <p>
+                                Describe the most relevant responsibilities and technical work from this role.
+                            </p>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section class="section section-muted" id="certifications">
-            <div class="container">
+        <section class="section" id="certifications">
+            <div class="container two-column">
                 <div class="section-heading">
+                    <span class="section-number">05</span>
+                    <h2>Certifications</h2>
+                </div>
+
+                <div class="cert-list">
                     <div>
-                        <div class="section-kicker">05 / Certifications</div>
-                        <h2 class="section-title">Certifications & professional learning.</h2>
+                        <strong>Certification Name</strong>
+                        <span>Issuer · Year</span>
+                    </div>
+                    <div>
+                        <strong>Certification Name</strong>
+                        <span>Issuer · Year</span>
+                    </div>
+                    <div>
+                        <strong>Course / Training</strong>
+                        <span>Provider · Year</span>
                     </div>
                 </div>
-
-                <div class="cert-grid">
-                    <div class="cert-card reveal"><span>Certification</span><strong>Add Certification Name</strong><small>Issuer · Year</small></div>
-                    <div class="cert-card reveal"><span>Certification</span><strong>Add Certification Name</strong><small>Issuer · Year</small></div>
-                    <div class="cert-card reveal"><span>Training</span><strong>Add Training / Course</strong><small>Provider · Year</small></div>
-                </div>
             </div>
         </section>
 
-        <section class="section" id="stack">
-            <div class="container">
-                <div class="section-kicker">06 / Stack</div>
-                <h2 class="section-title">Tools & technologies.</h2>
-
-                <div class="stack-cloud reveal">
-                    <span>Linux</span><span>MikroTik</span><span>Cisco</span><span>Aruba</span><span>Huawei</span>
-                    <span>Laravel</span><span>Livewire</span><span>PHP</span><span>MySQL</span><span>Docker</span>
-                    <span>Nginx</span><span>Zabbix</span><span>Wazuh</span><span>Git</span><span>REST API</span>
-                    <span>WireGuard</span><span>OpenVPN</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="section contact-section" id="contact">
-            <div class="container contact-grid">
+        <section class="section contact-section section-bordered" id="contact">
+            <div class="container contact-inner">
                 <div>
-                    <div class="section-kicker">07 / Contact</div>
-                    <h2 class="section-title">Interested in infrastructure, networking, automation, or backend engineering?</h2>
+                    <span class="section-number">06</span>
+                    <h2>Get in touch</h2>
+                    <p>
+                        For professional opportunities, technical collaboration,
+                        or questions about my work.
+                    </p>
                 </div>
 
-                <div class="contact-card reveal">
-                    <p>Replace this with a short invitation for recruiters, engineering managers, or collaborators to contact you.</p>
-                    <a href="mailto:you@example.com" class="btn btn-primary btn-full">you@example.com</a>
-                    <div class="contact-links">
-                        <a href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub ↗</a>
-                        <a href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn ↗</a>
-                    </div>
+                <div class="contact-links">
+                    <a href="mailto:you@example.com">you@example.com</a>
+                    <a href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container footer-wrap">
-            <div>© <span id="year"></span> Your Name</div>
-            <div>Static portfolio · Ready for CMS integration</div>
+    <footer>
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> Your Name</span>
+            <span>Network · Systems · Software</span>
         </div>
     </footer>
 
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/js/app.js"></script>
 </body>
 </html>

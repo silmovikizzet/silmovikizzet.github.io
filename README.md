@@ -1,35 +1,34 @@
-# Static Portfolio
+# Portfolio Static — Revised Design
 
-Static portfolio ready for GitHub Pages and future CMS integration.
+This version intentionally uses a quieter editorial design:
 
-## Customize
+- no fake terminal
+- no glowing cards
+- no large collection of pills
+- no reveal-on-scroll animations
+- minimal color palette
+- typography-led layout
+- project list instead of generic card grid
 
-Search and replace:
+## Replace
 
-- `YOUR NAME`
+Search these values:
+
 - `Your Name`
 - `USERNAME`
 - `you@example.com`
-- placeholder project / experience / certification text
+- placeholder company / experience / certification text
 
-Add CV:
+Put your CV at:
 
 `files/cv.pdf`
 
-## Preview locally
-
-```bash
-python3 -m http.server 8000
-```
-
-Open:
-
-`http://localhost:8000`
-
 ## Deploy
+
+Copy the files to the root of `silmovikizzet.github.io`, then:
 
 ```bash
 git add .
-git commit -m "Add static portfolio"
-git push
+git commit -m "Revise portfolio design"
+git push origin main
 ```
