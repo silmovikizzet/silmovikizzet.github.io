@@ -1,34 +1,29 @@
-# Portfolio Static — Revised Design
+# Portfolio Static — Tech Theme
 
-This version intentionally uses a quieter editorial design:
+This version keeps the design professional, but adds a more technical feel:
 
-- no fake terminal
-- no glowing cards
-- no large collection of pills
-- no reveal-on-scroll animations
-- minimal color palette
-- typography-led layout
-- project list instead of generic card grid
+- black background
+- subtle grid overlay
+- low-contrast blue glows
+- structured panels and borders
+- minimal tech-style typography
+- still suitable for professional job applications
 
-## Replace
-
-Search these values:
+## Replace placeholders
 
 - `Your Name`
 - `USERNAME`
 - `you@example.com`
-- placeholder company / experience / certification text
+- company / certification placeholder text
 
-Put your CV at:
+Put your CV in:
 
 `files/cv.pdf`
 
 ## Deploy
 
-Copy the files to the root of `silmovikizzet.github.io`, then:
-
 ```bash
 git add .
-git commit -m "Revise portfolio design"
+git commit -m "Update portfolio design"
 git push origin main
 ```
