@@ -1,12 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <h1>Hello, I'm Izzet</h1>
-    <p>System Engineer</p>
-</body>
-</html>
+const navToggle = document.getElementById('navToggle');
+const siteNav = document.getElementById('siteNav');
+
+if (navToggle && siteNav) {
+    navToggle.addEventListener('click', () => {
+        const open = siteNav.classList.toggle('open');
+        navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    siteNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            siteNav.classList.remove('open');
+            navToggle.setAttribute('aria-expanded', 'false');
+        });
+    });
+}
+
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
