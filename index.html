@@ -1,29 +1,107 @@
-const navToggle = document.getElementById('navToggle');
-const siteNav = document.getElementById('siteNav');
+YN YOUR NAME 
+About Expertise Projects Experience Contact
+Available for professional opportunities
+I build reliable network infrastructure, automation, and backend systems.
+Network Engineer, System Administrator, and Backend Developer focused on infrastructure reliability, network automation, monitoring, Linux systems, and Laravel applications.
 
-if (navToggle && siteNav) {
-    navToggle.addEventListener('click', () => {
-        const open = siteNav.classList.toggle('open');
-        navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
+View Projects Download CV
+GitHub ↗ LinkedIn ↗ Email ↗
+profile.sh
+$ whoami
+network-engineer
+$ cat expertise.txt
+Networking · Linux · Automation
+Laravel · Monitoring · Security
+$ uptime
+Always learning. Always improving.
+$ status
+● Systems operational
+NetworkInfrastructure
+SystemAdministration
+BackendDevelopment
+01 / About
+Engineering systems that are practical, maintainable, and reliable.
+This area will contain your professional summary. Keep it concise: explain what you work on, the environments you are comfortable with, and the kind of problems you solve.
 
-    siteNav.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-            siteNav.classList.remove('open');
-            navToggle.setAttribute('aria-expanded', 'false');
-        });
-    });
-}
+Later, this section can be loaded dynamically from your CMS without changing the front-end layout.
 
-document.getElementById('year').textContent = new Date().getFullYear();
+02 / Core Expertise
+Technical areas I work with.
+Replace these placeholders with your actual technologies and focus areas.
 
-const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            revealObserver.unobserve(entry.target);
-        }
-    });
-}, { threshold: 0.12 });
+01
+Network Infrastructure
+Routing, switching, VLAN, VPN, NAT, firewall, high availability, and troubleshooting.
 
-document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+MikroTikCiscoArubaHuawei
+02
+Systems & Linux
+Linux server administration, services, reverse proxy, containers, and production operations.
+
+LinuxDockerNginxWindows Server
+03
+Backend Development
+Internal tools, dashboards, API integrations, automation platforms, and billing workflows.
+
+LaravelLivewirePHPMySQL
+04
+Monitoring & Security
+Infrastructure monitoring, alerting, log analysis, endpoint visibility, and operational security.
+
+ZabbixWazuhSNMPTLS
+03 / Selected Projects
+Work that demonstrates practical engineering.
+For each project, focus on problem, solution, architecture, and result.
+
+Featured Project01
+Network Toolbox
+Web-based networking toolkit for diagnostics, subnet calculations, DNS checks, SSL inspection, and configuration generation.
+
+LaravelLivewireNetworking
+Live Demo ↗Case Study ↗
+Infrastructure Automation02
+Network Provisioning Platform
+Placeholder for a provisioning system that automates network services, customer lifecycle, configuration, and operational workflows.
+
+LaravelAPIAutomation
+Case Study ↗
+Observability03
+Monitoring & Security Stack
+Placeholder for monitoring, alerting, security visibility, availability reporting, and incident diagnostics.
+
+ZabbixWazuhLinux
+Case Study ↗
+Backend System04
+API Integration Platform
+Placeholder for API automation, webhook processing, lifecycle management, and administrative workflows.
+
+REST APIWebhookMySQL
+Case Study ↗
+04 / Experience
+Professional experience.
+20XX — Present
+Your Current Role
+Company Name
+Add 2–3 sentences describing your scope, responsibilities, infrastructure size, major systems, and measurable improvements.
+
+20XX — 20XX
+Previous Role
+Previous Company
+Describe relevant operational responsibilities and the systems you maintained or improved.
+
+05 / Certifications
+Certifications & professional learning.
+CertificationAdd Certification NameIssuer · Year
+CertificationAdd Certification NameIssuer · Year
+TrainingAdd Training / CourseProvider · Year
+06 / Stack
+Tools & technologies.
+LinuxMikroTikCiscoArubaHuawei LaravelLivewirePHPMySQLDocker NginxZabbixWazuhGitREST API WireGuardOpenVPN
+07 / Contact
+Interested in infrastructure, networking, automation, or backend engineering?
+Replace this with a short invitation for recruiters, engineering managers, or collaborators to contact you.
+
+you@example.com
+GitHub ↗ LinkedIn ↗
+© Your Name
+Static portfolio · Ready for CMS integration
