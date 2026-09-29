@@ -1,107 +1,296 @@
-YN YOUR NAME 
-About Expertise Projects Experience Contact
-Available for professional opportunities
-I build reliable network infrastructure, automation, and backend systems.
-Network Engineer, System Administrator, and Backend Developer focused on infrastructure reliability, network automation, monitoring, Linux systems, and Laravel applications.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name — Network Engineer & Backend Developer</title>
+    <meta name="description" content="Portfolio of a Network Engineer, System Administrator, and Backend Developer focused on infrastructure, automation, monitoring, and Laravel development.">
+    <meta name="theme-color" content="#07111f">
+    <meta property="og:title" content="Your Name — Portfolio">
+    <meta property="og:description" content="Network Engineering, Infrastructure, Automation, Monitoring, and Backend Development.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="page-grid"></div>
 
-View Projects Download CV
-GitHub ↗ LinkedIn ↗ Email ↗
-profile.sh
-$ whoami
-network-engineer
-$ cat expertise.txt
-Networking · Linux · Automation
-Laravel · Monitoring · Security
-$ uptime
-Always learning. Always improving.
-$ status
-● Systems operational
-NetworkInfrastructure
-SystemAdministration
-BackendDevelopment
-01 / About
-Engineering systems that are practical, maintainable, and reliable.
-This area will contain your professional summary. Keep it concise: explain what you work on, the environments you are comfortable with, and the kind of problems you solve.
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="#home" class="brand" aria-label="Homepage">
+                <span class="brand-mark">YN</span>
+                <span class="brand-text">YOUR NAME</span>
+            </a>
 
-Later, this section can be loaded dynamically from your CMS without changing the front-end layout.
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span>
+            </button>
 
-02 / Core Expertise
-Technical areas I work with.
-Replace these placeholders with your actual technologies and focus areas.
+            <nav class="site-nav" id="siteNav">
+                <a href="#about">About</a>
+                <a href="#expertise">Expertise</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-01
-Network Infrastructure
-Routing, switching, VLAN, VPN, NAT, firewall, high availability, and troubleshooting.
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <div class="eyebrow"><span class="status-dot"></span>Available for professional opportunities</div>
+                    <h1>I build reliable <span>network infrastructure</span>, automation, and backend systems.</h1>
+                    <p class="hero-lead">
+                        Network Engineer, System Administrator, and Backend Developer focused on infrastructure reliability,
+                        network automation, monitoring, Linux systems, and Laravel applications.
+                    </p>
 
-MikroTikCiscoArubaHuawei
-02
-Systems & Linux
-Linux server administration, services, reverse proxy, containers, and production operations.
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="files/cv.pdf" class="btn btn-secondary" target="_blank" rel="noopener">Download CV</a>
+                    </div>
 
-LinuxDockerNginxWindows Server
-03
-Backend Development
-Internal tools, dashboards, API integrations, automation platforms, and billing workflows.
+                    <div class="hero-links">
+                        <a href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub ↗</a>
+                        <a href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn ↗</a>
+                        <a href="mailto:you@example.com">Email ↗</a>
+                    </div>
+                </div>
 
-LaravelLivewirePHPMySQL
-04
-Monitoring & Security
-Infrastructure monitoring, alerting, log analysis, endpoint visibility, and operational security.
+                <div class="hero-panel reveal">
+                    <div class="terminal">
+                        <div class="terminal-top">
+                            <div class="terminal-dots"><span></span><span></span><span></span></div>
+                            <div class="terminal-title">profile.sh</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div><span class="prompt">$</span> whoami</div>
+                            <div class="output">network-engineer</div>
+                            <div><span class="prompt">$</span> cat expertise.txt</div>
+                            <div class="output">Networking · Linux · Automation</div>
+                            <div class="output">Laravel · Monitoring · Security</div>
+                            <div><span class="prompt">$</span> uptime</div>
+                            <div class="output">Always learning. Always improving.</div>
+                            <div><span class="prompt">$</span> status</div>
+                            <div class="output success">● Systems operational</div>
+                        </div>
+                    </div>
 
-ZabbixWazuhSNMPTLS
-03 / Selected Projects
-Work that demonstrates practical engineering.
-For each project, focus on problem, solution, architecture, and result.
+                    <div class="mini-stats">
+                        <div><strong>Network</strong><span>Infrastructure</span></div>
+                        <div><strong>System</strong><span>Administration</span></div>
+                        <div><strong>Backend</strong><span>Development</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-Featured Project01
-Network Toolbox
-Web-based networking toolkit for diagnostics, subnet calculations, DNS checks, SSL inspection, and configuration generation.
+        <section class="section section-muted" id="about">
+            <div class="container split-grid">
+                <div>
+                    <div class="section-kicker">01 / About</div>
+                    <h2 class="section-title">Engineering systems that are practical, maintainable, and reliable.</h2>
+                </div>
+                <div class="section-copy">
+                    <p>This area will contain your professional summary. Keep it concise: explain what you work on, the environments you are comfortable with, and the kind of problems you solve.</p>
+                    <p>Later, this section can be loaded dynamically from your CMS without changing the front-end layout.</p>
+                </div>
+            </div>
+        </section>
 
-LaravelLivewireNetworking
-Live Demo ↗Case Study ↗
-Infrastructure Automation02
-Network Provisioning Platform
-Placeholder for a provisioning system that automates network services, customer lifecycle, configuration, and operational workflows.
+        <section class="section" id="expertise">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="section-kicker">02 / Core Expertise</div>
+                        <h2 class="section-title">Technical areas I work with.</h2>
+                    </div>
+                    <p>Replace these placeholders with your actual technologies and focus areas.</p>
+                </div>
 
-LaravelAPIAutomation
-Case Study ↗
-Observability03
-Monitoring & Security Stack
-Placeholder for monitoring, alerting, security visibility, availability reporting, and incident diagnostics.
+                <div class="expertise-grid">
+                    <article class="expertise-card reveal">
+                        <span class="card-number">01</span>
+                        <h3>Network Infrastructure</h3>
+                        <p>Routing, switching, VLAN, VPN, NAT, firewall, high availability, and troubleshooting.</p>
+                        <div class="tags"><span>MikroTik</span><span>Cisco</span><span>Aruba</span><span>Huawei</span></div>
+                    </article>
 
-ZabbixWazuhLinux
-Case Study ↗
-Backend System04
-API Integration Platform
-Placeholder for API automation, webhook processing, lifecycle management, and administrative workflows.
+                    <article class="expertise-card reveal">
+                        <span class="card-number">02</span>
+                        <h3>Systems & Linux</h3>
+                        <p>Linux server administration, services, reverse proxy, containers, and production operations.</p>
+                        <div class="tags"><span>Linux</span><span>Docker</span><span>Nginx</span><span>Windows Server</span></div>
+                    </article>
 
-REST APIWebhookMySQL
-Case Study ↗
-04 / Experience
-Professional experience.
-20XX — Present
-Your Current Role
-Company Name
-Add 2–3 sentences describing your scope, responsibilities, infrastructure size, major systems, and measurable improvements.
+                    <article class="expertise-card reveal">
+                        <span class="card-number">03</span>
+                        <h3>Backend Development</h3>
+                        <p>Internal tools, dashboards, API integrations, automation platforms, and billing workflows.</p>
+                        <div class="tags"><span>Laravel</span><span>Livewire</span><span>PHP</span><span>MySQL</span></div>
+                    </article>
 
-20XX — 20XX
-Previous Role
-Previous Company
-Describe relevant operational responsibilities and the systems you maintained or improved.
+                    <article class="expertise-card reveal">
+                        <span class="card-number">04</span>
+                        <h3>Monitoring & Security</h3>
+                        <p>Infrastructure monitoring, alerting, log analysis, endpoint visibility, and operational security.</p>
+                        <div class="tags"><span>Zabbix</span><span>Wazuh</span><span>SNMP</span><span>TLS</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-05 / Certifications
-Certifications & professional learning.
-CertificationAdd Certification NameIssuer · Year
-CertificationAdd Certification NameIssuer · Year
-TrainingAdd Training / CourseProvider · Year
-06 / Stack
-Tools & technologies.
-LinuxMikroTikCiscoArubaHuawei LaravelLivewirePHPMySQLDocker NginxZabbixWazuhGitREST API WireGuardOpenVPN
-07 / Contact
-Interested in infrastructure, networking, automation, or backend engineering?
-Replace this with a short invitation for recruiters, engineering managers, or collaborators to contact you.
+        <section class="section section-muted" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="section-kicker">03 / Selected Projects</div>
+                        <h2 class="section-title">Work that demonstrates practical engineering.</h2>
+                    </div>
+                    <p>For each project, focus on problem, solution, architecture, and result.</p>
+                </div>
 
-you@example.com
-GitHub ↗ LinkedIn ↗
-© Your Name
-Static portfolio · Ready for CMS integration
+                <div class="projects-grid">
+                    <article class="project-card project-featured reveal">
+                        <div class="project-top"><span class="project-label">Featured Project</span><span class="project-index">01</span></div>
+                        <div class="project-content">
+                            <h3>Network Toolbox</h3>
+                            <p>Web-based networking toolkit for diagnostics, subnet calculations, DNS checks, SSL inspection, and configuration generation.</p>
+                        </div>
+                        <div class="project-meta">
+                            <div class="tags"><span>Laravel</span><span>Livewire</span><span>Networking</span></div>
+                            <div class="project-actions"><a href="#">Live Demo ↗</a><a href="#">Case Study ↗</a></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top"><span class="project-label">Infrastructure Automation</span><span class="project-index">02</span></div>
+                        <div class="project-content">
+                            <h3>Network Provisioning Platform</h3>
+                            <p>Placeholder for a provisioning system that automates network services, customer lifecycle, configuration, and operational workflows.</p>
+                        </div>
+                        <div class="project-meta">
+                            <div class="tags"><span>Laravel</span><span>API</span><span>Automation</span></div>
+                            <a href="#">Case Study ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top"><span class="project-label">Observability</span><span class="project-index">03</span></div>
+                        <div class="project-content">
+                            <h3>Monitoring & Security Stack</h3>
+                            <p>Placeholder for monitoring, alerting, security visibility, availability reporting, and incident diagnostics.</p>
+                        </div>
+                        <div class="project-meta">
+                            <div class="tags"><span>Zabbix</span><span>Wazuh</span><span>Linux</span></div>
+                            <a href="#">Case Study ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top"><span class="project-label">Backend System</span><span class="project-index">04</span></div>
+                        <div class="project-content">
+                            <h3>API Integration Platform</h3>
+                            <p>Placeholder for API automation, webhook processing, lifecycle management, and administrative workflows.</p>
+                        </div>
+                        <div class="project-meta">
+                            <div class="tags"><span>REST API</span><span>Webhook</span><span>MySQL</span></div>
+                            <a href="#">Case Study ↗</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="section-kicker">04 / Experience</div>
+                        <h2 class="section-title">Professional experience.</h2>
+                    </div>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item reveal">
+                        <div class="timeline-date">20XX — Present</div>
+                        <div class="timeline-content">
+                            <h3>Your Current Role</h3>
+                            <div class="timeline-company">Company Name</div>
+                            <p>Add 2–3 sentences describing your scope, responsibilities, infrastructure size, major systems, and measurable improvements.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-date">20XX — 20XX</div>
+                        <div class="timeline-content">
+                            <h3>Previous Role</h3>
+                            <div class="timeline-company">Previous Company</div>
+                            <p>Describe relevant operational responsibilities and the systems you maintained or improved.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-muted" id="certifications">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <div class="section-kicker">05 / Certifications</div>
+                        <h2 class="section-title">Certifications & professional learning.</h2>
+                    </div>
+                </div>
+
+                <div class="cert-grid">
+                    <div class="cert-card reveal"><span>Certification</span><strong>Add Certification Name</strong><small>Issuer · Year</small></div>
+                    <div class="cert-card reveal"><span>Certification</span><strong>Add Certification Name</strong><small>Issuer · Year</small></div>
+                    <div class="cert-card reveal"><span>Training</span><strong>Add Training / Course</strong><small>Provider · Year</small></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="stack">
+            <div class="container">
+                <div class="section-kicker">06 / Stack</div>
+                <h2 class="section-title">Tools & technologies.</h2>
+
+                <div class="stack-cloud reveal">
+                    <span>Linux</span><span>MikroTik</span><span>Cisco</span><span>Aruba</span><span>Huawei</span>
+                    <span>Laravel</span><span>Livewire</span><span>PHP</span><span>MySQL</span><span>Docker</span>
+                    <span>Nginx</span><span>Zabbix</span><span>Wazuh</span><span>Git</span><span>REST API</span>
+                    <span>WireGuard</span><span>OpenVPN</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container contact-grid">
+                <div>
+                    <div class="section-kicker">07 / Contact</div>
+                    <h2 class="section-title">Interested in infrastructure, networking, automation, or backend engineering?</h2>
+                </div>
+
+                <div class="contact-card reveal">
+                    <p>Replace this with a short invitation for recruiters, engineering managers, or collaborators to contact you.</p>
+                    <a href="mailto:you@example.com" class="btn btn-primary btn-full">you@example.com</a>
+                    <div class="contact-links">
+                        <a href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub ↗</a>
+                        <a href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn ↗</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <div>© <span id="year"></span> Your Name</div>
+            <div>Static portfolio · Ready for CMS integration</div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
