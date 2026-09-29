@@ -27,3 +27,6 @@ git add .
 git commit -m "Update portfolio design"
 git push origin main
 ```
+
+
+CV content has been populated from the supplied resume. `files/cv.pdf` is included.
